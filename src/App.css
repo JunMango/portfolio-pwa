@@ -2,12 +2,19 @@
 
 :root {
   --header-height: 3rem;
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  /*--hue: 0;*/
+  /*--sat: 0%;*/
+  /*--title-color: hsl(var(--hue), var(--sat), 20%);*/
+  /*--title-color-dark: hsl(var(--hue), var(--sat), 0%);*/
+  /*--text-color: hsl(var(--hue), var(--sat), 46%);*/
+  --hue: 0; /* 색조는 0으로 유지 */
+  --sat: 0%; /* 채도는 0% (흰색) */
+  --title-color: hsl(var(--hue), var(--sat), 95%); /* 밝은 흰색 */
+  --title-color-dark: hsl(var(--hue), var(--sat), 80%); /* 조금 어두운 흰색 */
+  --text-color: hsl(var(--hue), var(--sat), 90%); /* 밝은 흰색 */
+
+  /*--body-color: hsl(var(--hue), var(--sat), 98%);*/
+  --body-color: #000000;
   --container-color: #fff;
 
   --body-font: "Poppins", sans-serif;
@@ -76,7 +83,8 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background:#000000;
+  /*background-color: var(--body-color);*/
   color: var(--text-color);
 }
 
@@ -112,7 +120,7 @@ img {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
+  font-size: var(--big-font-size);
   color: var(--title-color);
 }
 
