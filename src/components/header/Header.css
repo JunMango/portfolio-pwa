@@ -18,7 +18,7 @@
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-medium); 
+    font-weight: var(--font-medium);
 }
 
 .nav__list {
@@ -53,8 +53,9 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
+        top: 0;
+        /*top: initial;*/
+        /*bottom: 0;*/
     }
 
     .nav {
@@ -63,7 +64,8 @@
 
     .nav__menu {
         position: fixed;
-        bottom: -100%;
+        /*bottom: -100%;*/
+        top: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -74,7 +76,8 @@
     }
 
     .show-menu {
-        bottom: 0;
+        top: 0;
+        /*bottom: 0;*/
     }
 
     .nav__list {
