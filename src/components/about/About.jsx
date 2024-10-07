@@ -3,28 +3,37 @@ import "./about.css";
 import AboutImg from "../../../src/assets/logo192.png";
 import CV from "../../../src/assets/logo192.png";
 import Info from "./Info";
+import Qualification from "../qualification/Qualification";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My Intoduction</span>
+      {/*<hr />*/}
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        {/*<img src={AboutImg} alt="" className="about__img" />*/}
+        <Qualification />
 
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-            Frontend Developer, I create web pages with UI / UX user interface,
-            I create web pages with the skill set including HTML, CSS,
-            JavaScript, and React, I have the tools to bring any website vision
-            to life.
+            안녕하세요 김형준 입니다.
+            <br />
+            안녕하세요 김형준 입니다.
+            <br />
+            안녕하세요 김형준 입니다.
+            <br />
+            안녕하세요 김형준 입니다.
+            <br />
+            안녕하세요 김형준 입니다.
+            <br />
           </p>
 
           <a download="" href={CV} className="button button--flex">
-            Download CV
+            이력서 다운 받기
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"

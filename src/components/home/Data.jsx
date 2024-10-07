@@ -1,10 +1,12 @@
 import React from "react";
+import TitleText from "../animation/titleText/TitleText";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        JunMango
+        {/*JunMango*/}
+        <TitleText />
         <svg
           width="36"
           height="36"

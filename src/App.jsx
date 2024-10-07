@@ -19,8 +19,8 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Experience />
-        <Qualification />
+        {/*<Experience />*/}
+        {/*<Qualification />*/}
         <Work />
         <Testimonials />
         <Contact />

@@ -32,7 +32,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
-          &lt;JunMango&gt;
+          &lt;JunMango/&gt;
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
